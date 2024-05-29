@@ -23,7 +23,7 @@ const html = `
 <body>
     <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
         <div class="logo mb-8 animate__animated animate__fadeInLeft">
-          <img src="public/profile.png" alt="" class="img-fluid rounded-circle">
+          <img src="/public/profile.png" alt="" class="img-fluid rounded-circle">
         </div>
         <div class="company-name mb-2 animate__animated animate__fadeInRight">TWELVE.</div>
         <div class="subtitle mb-5 animate__animated animate__fadeInUp">THE COMPANY</div>
