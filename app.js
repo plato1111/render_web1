@@ -23,7 +23,7 @@ const html = `
 <body>
     <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
         <div class="logo mb-8 animate__animated animate__fadeInLeft">
-          <img src="profile.png" alt="" class="img-fluid rounded-circle">
+          <img src="public/profile.png" alt="" class="img-fluid rounded-circle">
         </div>
         <div class="company-name mb-2 animate__animated animate__fadeInRight">TWELVE.</div>
         <div class="subtitle mb-5 animate__animated animate__fadeInUp">THE COMPANY</div>
@@ -35,7 +35,7 @@ const html = `
         </div>
       </div>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="transitions.js"></script>
+  <script src="public/js/transitions.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
