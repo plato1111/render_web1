@@ -2,11 +2,11 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3001;
 
+// Servir archivos estáticos desde la carpeta 'public'
 app.use(express.static('public'));
 
-app.get("/index", (req, res) => res.type('html').send(html));
+app.get("index/", (req, res) => res.type('html').send(html));
 app.get("/page2", (req, res) => res.type('html').send(page2));
-
 
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
@@ -27,7 +27,7 @@ const html = `
 <body>
     <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
         <div class="logo mb-8 animate__animated animate__fadeInLeft">
-          <img src="https://raw.githubusercontent.com/plato1111/render_web1/main/public/images/profile.png" alt="" class="img-fluid rounded-circle">
+          <img src="images/profile.png" alt="" class="img-fluid rounded-circle">
         </div>
         <div class="company-name mb-2 animate__animated animate__fadeInRight">TWELVE.</div>
         <div class="subtitle mb-5 animate__animated animate__fadeInUp">THE COMPANY</div>
@@ -39,7 +39,7 @@ const html = `
         </div>
       </div>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="public/js/transitions.js"></script>
+  <script src="js/transitions.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
@@ -53,15 +53,16 @@ const page2 = `
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page 2</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page2">
   <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
     <h1>Welcome to Page 2</h1>
     <p>This is the content of Page 2.</p>
-    <a href="index" class="btn btn-outline-dark">Go back to Page 1</a>
+    <a href="/" class="btn btn-outline-dark">Go back to Page 1</a>
   </div>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/transitions.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
