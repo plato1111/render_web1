@@ -3,6 +3,8 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.get("/", (req, res) => res.type('html').send(html));
+app.get("/", (req, res) => res.type('html').send(page2));
+
 
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
@@ -36,6 +38,28 @@ const html = `
       </div>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="public/js/transitions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+`
+
+const page2 = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page2">
+  <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
+    <h1>Welcome to Page 2</h1>
+    <p>This is the content of Page 2.</p>
+    <a href="index.html" class="btn btn-outline-dark">Go back to Page 1</a>
+  </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
