@@ -57,7 +57,7 @@ const page2 = `
   <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
     <h1>Welcome to Page 2</h1>
     <p>This is the content of Page 2.</p>
-    <a href="index.html" class="btn btn-outline-dark">Go back to Page 1</a>
+    <a href="index" class="btn btn-outline-dark">Go back to Page 1</a>
   </div>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
