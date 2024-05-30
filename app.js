@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.get("/", (req, res) => res.type('html').send(html));
+app.get("/index", (req, res) => res.type('html').send(html));
 app.get("/page2", (req, res) => res.type('html').send(page2));
 
 
