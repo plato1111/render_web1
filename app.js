@@ -160,7 +160,7 @@ const html = `
       <span class="slider"></span>
     </label>
     <div class="logo mb-4 animate__animated animate__fadeInLeft">
-      <img src="profile.png" alt="Company Logo" class="img-fluid rounded-circle">
+      <img src="https://raw.githubusercontent.com/plato1111/render_web1/main/public/js/profile.png" alt="Company Logo" class="img-fluid rounded-circle">
     </div>
     <div class="company-name mb-2 animate__animated animate__fadeInRight text-center">TWELVE.</div>
     <div class="subtitle mb-4 animate__animated animate__fadeInUp text-center">THE COMPANY</div>
