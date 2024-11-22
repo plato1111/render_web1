@@ -6,7 +6,7 @@ const port = process.env.PORT || 3001;
 app.use(express.static('public'));
 
 app.get("/", (req, res) => res.type('html').send(html));
-app.get("/page2", (req, res) => res.type('html').send(page2));
+app.get("page2", (req, res) => res.type('html').send(page2));
 
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
