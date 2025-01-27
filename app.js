@@ -168,7 +168,7 @@ const html = `
       <a href="#" class="btn btn-outline-dark mb-3 animate__animated animate__fadeInUp">Visit our website</a>
       <a href="#" class="btn btn-outline-dark mb-3 animate__animated animate__fadeInUp">Get quote</a>
       <a href="#" class="btn btn-outline-dark mb-3 animate__animated animate__fadeInUp">References</a>
-      <a href="/page2.html" class="btn btn-outline-dark animate__animated animate__fadeInUp">Go to Page 2</a>
+      <a href="/page2" class="btn btn-outline-dark animate__animated animate__fadeInUp">Go to Page 2</a>
     </div>
   </div>
 
