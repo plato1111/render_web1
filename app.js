@@ -162,8 +162,8 @@ const html = `
     <div class="logo mb-4 animate__animated animate__fadeInLeft">
       <img src="https://raw.githubusercontent.com/plato1111/render_web1/main/public/js/profile.png" alt="Company Logo" class="img-fluid rounded-circle">
     </div>
-    <div class="company-name mb-2 animate__animated animate__fadeInRight text-center">TWELVE.</div>
-    <div class="subtitle mb-4 animate__animated animate__fadeInUp text-center">THE COMPANY</div>
+    <div class="company-name mb-2 animate__animated animate__fadeInRight text-center">PATHFINDER PRO</div>
+    <div class="subtitle mb-4 animate__animated animate__fadeInUp text-center">Orientación Vocacional</div>
     <div class="button-container d-flex flex-column align-items-center w-100">
       <a href="#" class="btn btn-outline-dark mb-3 animate__animated animate__fadeInUp">Visit our website</a>
       <a href="#" class="btn btn-outline-dark mb-3 animate__animated animate__fadeInUp">Get quote</a>
